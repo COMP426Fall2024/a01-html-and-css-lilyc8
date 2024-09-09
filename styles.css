@@ -35,7 +35,6 @@ button:hover{
 
 h1{
     color: black;
-    text-size-adjust: 10pt;
     margin-bottom: 0pt;
     margin-left: 12%;
     margin-top: 2%;
@@ -203,7 +202,6 @@ hr {
     background: #e8c8a7;
     display: block;
     padding: 1em;
-    background-color: none;
 }
 
 #nav ul li:hover{
