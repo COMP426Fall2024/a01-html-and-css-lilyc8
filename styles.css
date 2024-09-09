@@ -288,7 +288,13 @@ hr {
 
 /* ABILITES HTML */
 
+#question{
+    padding-bottom: 5%;
+}
+
 table{
+    padding-top: 5%;
+    border: 1px solid #a07f5c;
     width: 80%;
     table-layout: fixed;
 }
@@ -304,6 +310,7 @@ th{
 td{
     font-family: 'Georgia', sans-serif;
     font-weight: lighter;
+    padding-right: 15%;
 
 }
 
