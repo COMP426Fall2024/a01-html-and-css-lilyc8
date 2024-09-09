@@ -134,6 +134,7 @@ hr {
     padding-left: 2%;
 }
 
+
 .history-container p{
     padding: 1%;
     top: 40%;
@@ -141,8 +142,26 @@ hr {
     margin: auto;
 }
 
+#hr1{
+    position: relative;
+    top: 100px;
+}
+
+
+.history-container .journey-container{
+    position: absolute;
+    top: 500px;
+}
+
+.history-container .after-container{
+    position: absolute;
+    top: 1450px;
+    padding-bottom: 5%;
+}
+
 .history-image{
-    max-width: 350pt;
+    max-width: 300pt;
+    width: 105%;
     padding: 2%;
     padding-right: 5%;
     float: left;
@@ -163,7 +182,7 @@ hr {
 #nav{
     z-index: 5;
     top: 18%;
-    padding-left: 25px;
+    padding-left: 45px;
     position: absolute;
     width: 93%;
     font-size: large;
@@ -202,7 +221,6 @@ hr {
 }
 
 #nav input.trigger:checked ~ ul{
-    cursor: pointer;
     display: block!important;
 }
 
@@ -267,3 +285,31 @@ hr {
         text-align: justify;
     }
 } */
+
+/* ABILITES HTML */
+
+table{
+    width: 80%;
+    table-layout: fixed;
+}
+
+
+th{
+    font-family:'Times New Roman', sans-serif;
+    font-size: large;
+    text-align: center; 
+    vertical-align: top;
+}
+
+td{
+    font-family: 'Georgia', sans-serif;
+    font-weight: lighter;
+
+}
+
+th img{
+    max-width: 300px;
+    /* position: absolute; */
+    bottom: 0;
+    padding: 5%;
+}

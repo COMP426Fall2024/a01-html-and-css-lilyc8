@@ -1,9 +1,7 @@
-var time = $(".time-container ul li"),
-    desc = $("#second ul li");
-
-time.on("click", function(){
-    desc.hide();
-    var index = time.index(this),
-        el = secondListElements.get(index);
-    $(el).show();
-});
+function changeDesc(){
+    var time = document.getElementsByClassName("option");
+    var desc = document.getElementsByClassName("history-container");
+    
+    desc.style.display = "none";
+    
+}
